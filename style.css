@@ -1,0 +1,192 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Delius&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    background: linear-gradient(rgb(0, 162, 255) 60%, rgb(0, 150, 255)) ;
+    line-height: 1.6;
+    margin: 2%;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.left-page img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px #000000 solid;
+}
+
+.left-page{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 5px 0 0 white ;
+    margin-left: 20px;
+}
+
+.left-page h1{
+    margin: 0px;
+    margin-left: 20px;
+    font-family: "DM Serif Text", serif;
+}
+
+.left-page h2{
+    margin: 0px;
+    margin-left: 20px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 200;
+}
+
+div.Dados{
+    display: flex;
+    align-items: center;
+
+}
+
+ul.dado{
+    margin: 0%;
+    padding-left: 20px;
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+}
+
+ul.dado li{
+    padding: 5px;
+    background-color: aliceblue transparent;
+    transition: 0.3s ease-in-out;
+}
+
+ul.dado li:hover{
+    padding: 5px 60px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+ul.dado li a{
+    text-decoration: none;
+}
+
+ul.dado a.icon-txt{
+    text-decoration: none;
+}
+
+ul.links{
+    padding: 0;
+    margin-top: 30px;
+    margin: 15px;
+}
+
+ul.links li{
+    max-width: 300px;
+    padding: 10px;
+    background-color: aliceblue transparent;
+    transition: 0.3s ease-in-out;
+    font-size: 25px;
+}
+
+ul.links li:hover{
+    max-width: 300px;
+    padding: 10px 40px;
+    background-color: aliceblue;
+}
+
+ul.links a{
+    text-decoration: none;
+    font-family: "DM Serif Text", serif;
+    color: #000000;
+}
+
+ul.links i{
+    margin-right: 10px;
+}
+
+.sobre{
+    max-width: 660px;
+    margin-top: -2%;
+}
+
+.sobre h2{
+    font-family: "DM Serif Text", serif;
+}
+
+.sobre p{
+    font-family: "DM Serif Text", serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    background-color: aliceblue;
+    border: #000000 3px solid;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.dado{
+    list-style-type: none;
+    font-family: "Delius", cursive;
+    text-decoration: none;
+}
+
+.links{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Delius", cursive;
+    margin-bottom: 5%;
+}
+
+
+
+.right-page{
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.right-page a{
+    font-size: 40px;
+    font-family: "DM Serif Text", serif;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.right-page a.icon{
+    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.right-page li{
+    padding: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.right-page h1{
+    font-family: "DM Serif Text", serif;
+    justify-content: center;
+    display: flex;
+}
+
+.right-page div.l1{
+    display: flex;
+    margin-top:30px ;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 3px #000000 solid;
+    border-radius: 10px;
+    list-style-type: none;
+    align-items: center;
+}
+
+
+
